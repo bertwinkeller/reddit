@@ -1,0 +1,3 @@
+{
+    "mongoURI" : "mongodb+srv://bertwinkeller:c7A29fmJ7EfBz1t0@redditcluster.ocykq.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
