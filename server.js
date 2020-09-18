@@ -9,6 +9,9 @@ const connectDB = require('./config/db.js')
 //Connect to DB
 connectDB()
 
+ //Instal Middleware
+ app.use(express.json({extended: false}))
+
 app.listen(PORT, () => console.log(`App is listening on port ${PORT}`))
 
 app.get('/', (req,res) => {
